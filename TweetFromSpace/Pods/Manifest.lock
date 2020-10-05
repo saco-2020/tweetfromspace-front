@@ -1,4 +1,5 @@
 PODS:
+<<<<<<< HEAD
   - AppAuth (1.4.0):
     - AppAuth/Core (= 1.4.0)
     - AppAuth/ExternalUserAgent (= 1.4.0)
@@ -105,5 +106,32 @@ SPEC CHECKSUMS:
   Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
 
 PODFILE CHECKSUM: ebd940aa7ab966ed51759140dbd8cbc17b15ab1b
+=======
+  - OAuthSwift (2.0.0)
+  - Swifter (2.4.0)
+
+DEPENDENCIES:
+  - OAuthSwift (~> 2.0.0)
+  - Swifter (from `https://github.com/mattdonnelly/Swifter.git`)
+
+SPEC REPOS:
+  trunk:
+    - OAuthSwift
+
+EXTERNAL SOURCES:
+  Swifter:
+    :git: https://github.com/mattdonnelly/Swifter.git
+
+CHECKOUT OPTIONS:
+  Swifter:
+    :commit: 7906c9476f612fc2a77c38f4731d4bc618cea6a8
+    :git: https://github.com/mattdonnelly/Swifter.git
+
+SPEC CHECKSUMS:
+  OAuthSwift: 6805456763cf1c7ae0c16765257ed430b7aacae7
+  Swifter: 0955a05325dc182fabfb1468305aef887180e0f1
+
+PODFILE CHECKSUM: 6d1170dd49666a32661f706513cabcaf5c5d350d
+>>>>>>> b2de296d091f889544ac5ed935ccace7492abd6e
 
 COCOAPODS: 1.9.3

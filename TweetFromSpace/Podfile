@@ -2,6 +2,7 @@
 # platform :ios, '10.0'
 
 target 'TweetFromSpace' do
+<<<<<<< HEAD
   # Pods for TweetFromSpace
   def install_pods
       pod 'Socket.IO-Client-Swift', '~> 15.2.0'
@@ -23,5 +24,13 @@ target 'TweetFromSpace' do
   target 'TweetFromSpaceUITests' do
     # Pods for testing
   end
+=======
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for TweetFromSpac
+  pod 'OAuthSwift', '~> 2.0.0'
+  pod 'Swifter', :git => 'https://github.com/mattdonnelly/Swifter.git'
+>>>>>>> b2de296d091f889544ac5ed935ccace7492abd6e
 
 end

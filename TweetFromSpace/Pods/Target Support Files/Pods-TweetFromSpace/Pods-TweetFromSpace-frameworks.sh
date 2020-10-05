@@ -197,6 +197,7 @@ if [ -r "${ARTIFACT_LIST_FILE}" ]; then
 fi
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+<<<<<<< HEAD
   install_framework "${BUILT_PRODUCTS_DIR}/AppAuth/AppAuth.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/GTMAppAuth/GTMAppAuth.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework"
@@ -217,6 +218,14 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework"
+=======
+  install_framework "${BUILT_PRODUCTS_DIR}/OAuthSwift/OAuthSwift.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Swifter/Swifter.framework"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/OAuthSwift/OAuthSwift.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Swifter/Swifter.framework"
+>>>>>>> b2de296d091f889544ac5ed935ccace7492abd6e
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

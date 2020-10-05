@@ -17,6 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+<<<<<<< HEAD
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_orange.png" translatesAutoresizingMaskIntoConstraints="NO" id="DMU-Ns-8fF">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -66,6 +67,12 @@ NOTICE COMING ISS</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <state key="normal" image="facebooklogin.png"/>
+=======
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KuR-GL-EwH">
+                                <rect key="frame" x="190" y="403" width="171" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+>>>>>>> b2de296d091f889544ac5ed935ccace7492abd6e
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -74,6 +81,7 @@ NOTICE COMING ISS</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< HEAD
             <point key="canvasLocation" x="431.8840579710145" y="275.22321428571428"/>
         </scene>
         <!--View Controller2-->
@@ -131,6 +139,12 @@ NOTICE COMING ISS</string>
         <image name="shuttle" width="376" height="512"/>
         <image name="twitterSample.png" width="240" height="287"/>
         <image name="twitterlogin.png" width="442" height="95"/>
+=======
+            <point key="canvasLocation" x="-155.07246376811597" y="-26.785714285714285"/>
+        </scene>
+    </scenes>
+    <resources>
+>>>>>>> b2de296d091f889544ac5ed935ccace7492abd6e
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

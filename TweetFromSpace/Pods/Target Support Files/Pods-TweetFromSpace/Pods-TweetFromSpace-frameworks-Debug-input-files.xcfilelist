@@ -1,4 +1,5 @@
 ${PODS_ROOT}/Target Support Files/Pods-TweetFromSpace/Pods-TweetFromSpace-frameworks.sh
+<<<<<<< HEAD
 ${BUILT_PRODUCTS_DIR}/AppAuth/AppAuth.framework
 ${BUILT_PRODUCTS_DIR}/GTMAppAuth/GTMAppAuth.framework
 ${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework
@@ -8,3 +9,7 @@ ${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework
 ${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework
 ${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework
 ${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework
+=======
+${BUILT_PRODUCTS_DIR}/OAuthSwift/OAuthSwift.framework
+${BUILT_PRODUCTS_DIR}/Swifter/Swifter.framework
+>>>>>>> b2de296d091f889544ac5ed935ccace7492abd6e
