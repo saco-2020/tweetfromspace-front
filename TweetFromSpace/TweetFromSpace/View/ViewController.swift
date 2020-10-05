@@ -12,7 +12,6 @@ import FirebaseAuth
 import Firebase
 
 // MARK: - Global
-var l_flg = 0
 
 class ViewController: UIViewController, GIDSignInDelegate {
     
