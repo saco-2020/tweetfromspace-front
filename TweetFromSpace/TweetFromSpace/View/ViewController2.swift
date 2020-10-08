@@ -11,12 +11,13 @@ import SocketIO
 
 class ViewController2: UIViewController {
     
-    let manager = SocketManager(socketURL: URL(string: "https://lit-stream-05733.herokuapp.com:8023/")!, config: [.log(true), .compress])
+    let manager = SocketManager(socketURL: URL(string: "http://lit-stram-05733.herokuapp.com:80/")!, config: [.log(true), .compress])
     var socket: SocketIOClient!
     var dataList: NSMutableArray! = []
     
     @IBAction func socketBtn(_ sender: Any) {
-        socket.emit("from_client", "button pushed!!")
+        wsConnect()
+//        socket.emit("from_client", "button pushed!!")
     }
     
     override func viewDidLoad() {
@@ -25,7 +26,9 @@ class ViewController2: UIViewController {
         
         dataList = NSMutableArray()
         socket = manager.defaultSocket
-        
+    }
+    
+    func wsConnect(){
         // Prepare for start to socket connection
         socket.on(clientEvent: .connect){ data, ack in
             print("socket connected!")
@@ -41,6 +44,5 @@ class ViewController2: UIViewController {
         }
         socket.connect()
     }
-
     
 }
